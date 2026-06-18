@@ -1,6 +1,6 @@
 # bindflt 0x50
 
-`bindflt.sys` bugchecks with `0x50` in `BfValidateShortName` (`bindflt.sys+0x23783`). Seen on Win11 24H2 `26100.8655`.
+`bindflt.sys` bugchecks with `0x50` in `BfValidateShortName` (`bindflt.sys+0x23783`). Seen on Win11 25H2 `26100.8655`.
 
 Needs admin - `\\BindFltPort` won't open otherwise.
 
