@@ -14,6 +14,12 @@ struct_fuzz.exe 2000 8 C:\ batch4
 
 wait ~minute. box dies.
 
+```
+v2 = *((QWORD *)a1 + 1);
+...
+*(_WORD *)(v2 + 2 * v7) == '\\'   // 0x50 if v2 is corrupt
+```
+
 ## build
 
 ```
@@ -32,11 +38,7 @@ seeds a merged bind map through `bindfltapi`, then spams port type 4 batch messa
 
 minidump from that run: `061826-31687-01.dmp`
 
-`
-v2 = *((QWORD *)a1 + 1);
-...
-*(_WORD *)(v2 + 2 * v7) == '\\'   // 0x50 if v2 is corrupt
-`
+
 
 | artifact | sha256 |
 |----------|--------|
