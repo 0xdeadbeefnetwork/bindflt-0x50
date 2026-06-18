@@ -36,7 +36,7 @@ minidump from that run: `061826-31687-01.dmp`
 v2 = *((QWORD *)a1 + 1);
 ...
 *(_WORD *)(v2 + 2 * v7) == '\\'   // 0x50 if v2 is corrupt
-``
+`
 
 | artifact | sha256 |
 |----------|--------|
