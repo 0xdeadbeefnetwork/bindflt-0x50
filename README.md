@@ -43,4 +43,3 @@ minidump from that run: `061826-31687-01.dmp`
 | artifact | sha256 |
 |----------|--------|
 | `struct_fuzz.c` (repo = VM copy) | `a8aa5b568b5d95f32fe2605aa979a4ab186498080174574c08f3b90532285a7a` |
-| `struct_fuzz.exe` (built on VM) | `6bfbbc67a1f09655287ab3f1ec1ed3144dddb099ff914b2865c16937f57334b9` |
